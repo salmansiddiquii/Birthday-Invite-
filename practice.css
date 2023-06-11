@@ -1,0 +1,35 @@
+ul {
+    display: flex;
+    flex-direction: row;
+ 
+    border: 3px solid;
+    gap: 10px;
+}
+
+li {
+    flex: 1;
+    font-size: 1.5rem;
+    background-color: rgb(78, 89, 131);
+    border: 2px solid;
+    list-style: none;
+    border-radius: 10px;
+    padding: 20px;
+    color: aliceblue;
+
+}
+
+*/ .parent {
+    display: flex;
+    height: 50vh;
+    border: 3px solid;
+    justify-content: center;
+    align-items: center
+}
+
+.child {
+    flex-basis: 150px;
+    font-size: 1.5rem;
+    background-color: rgb(95, 125, 129);
+    padding: 10px;
+    color: white;
+}
